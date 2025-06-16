@@ -3,12 +3,16 @@
  */
 package ifsc.poo;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import ifsc.poo.Naves.NaveCargueira;
+import ifsc.poo.Naves.NaveExploradora;
+import ifsc.poo.Naves.NaveMineradora;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        NaveExploradora maxI = new NaveExploradora(15,20,false);
+        NaveCargueira AtlantaIV = new NaveCargueira(13,20,true,112,250);
+        NaveMineradora Midas = new NaveMineradora()
+
+
     }
 }
